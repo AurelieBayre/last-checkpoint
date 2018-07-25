@@ -1,8 +1,8 @@
 let nextMovieId = 0
-export const addMovie = text => ({
+export const addMovie = title => ({
   type: 'ADD_MOVIE',
   id: nextMovieId++,
-  text
+  title
 })
 
 export const deleteMovie = num => ({

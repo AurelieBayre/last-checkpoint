@@ -1,15 +1,13 @@
 import React from 'react'
 import { Card, CardSubtitle, Button } from 'reactstrap'
 
-const Movie = ({ onClick, text }) => (
-  <li
-    onClick={onClick}
-  >
+const Movie = ({ onClick, title }) => (
+  <li>
   <Card>
-    {text}
+    {title}
 
     <CardSubtitle>
-      <Button>
+      <Button onClick={onClick}>
         Delete
       </Button>
     </CardSubtitle>

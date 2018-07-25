@@ -9,15 +9,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const initialState = [
   {
     id: 0,
-    text: 'Avalon'
+    title: 'Avalon'
   },
   {
     id: 1,
-    text: 'Matrix'
+    title: 'Matrix'
   },
   {
     id: 2,
-    text: 'Existenz'
+    title: 'Existenz'
   }
 ]
 

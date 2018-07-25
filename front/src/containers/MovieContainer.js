@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import MoviesList from '../components/MoviesList'
-import { deleteMovie } from '../actions'
+import { deleteMovie, addMovie } from '../actions'
 
 
 const mapStateToProps = state => ({
@@ -9,7 +9,8 @@ const mapStateToProps = state => ({
 })
 
 const mapDispatchToProps = dispatch => ({
-  onClickDelete: id => dispatch(deleteMovie(id))
+  onClickDelete: id => dispatch(deleteMovie(id)),
+  onSubmitAdd: movieObj => dispatch(addMovie(movieObj))
 })
 
 

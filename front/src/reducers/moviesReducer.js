@@ -5,7 +5,7 @@ const moviesReducer = (state = [], action) => {
         ...state,
         {
           id: action.id,
-          text: action.text
+          title: action.title
         }
       ]
     case 'DELETE_MOVIE':
