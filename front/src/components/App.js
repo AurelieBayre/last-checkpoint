@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import MovieContainer from '../containers/MovieContainer';
 import { Container } from 'reactstrap'
-import NewMovieForm from './NewMovieForm'
 
 class App extends Component {
   render() {
@@ -15,7 +14,6 @@ class App extends Component {
             An app based on AlloCiné
           </p>
           <MovieContainer />
-          <NewMovieForm />
         </Container>
       </div>
     );
