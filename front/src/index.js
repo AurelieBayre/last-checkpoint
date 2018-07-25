@@ -15,6 +15,10 @@ const initialState = [
     id: 1,
     text: 'Matrix'
   },
+  {
+    id: 2,
+    text: 'Existenz'
+  }
 ]
 
 const store = createStore(moviesReducer, initialState, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())

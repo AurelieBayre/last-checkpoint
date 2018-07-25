@@ -9,7 +9,7 @@ const moviesReducer = (state = [], action) => {
         }
       ]
     case 'DELETE_MOVIE':
-      return state.filter(movie => movie.id === action.num
+      return state.filter(movie => movie.id !== action.id
       )
     case 'TEST':
       console.log('on a test')
