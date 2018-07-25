@@ -1,4 +1,4 @@
-const todoMovies = (state = [], action) => {
+const moviesReducer = (state = [], action) => {
   switch (action.type) {
     case 'ADD_MOVIE':
       return [
@@ -19,4 +19,4 @@ const todoMovies = (state = [], action) => {
   }
 }
 
-export default todoMovies
+export default moviesReducer
